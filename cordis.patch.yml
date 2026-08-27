@@ -1,0 +1,8 @@
+# dsh-fee-meter bundle patch: 把插件行插入 web profile bundle。
+# insert 行同时挂载两端(参考 @linxin666/dsh-pet 的格式):
+#  - host 端:加载 lib/index.js(空骨架,无服务,仅满足入口产物检查);
+#  - browser 端:扫描 dsh.client 把 lib/client.js 载入 web 插件名册,
+#    从而在设置页注册「费用」分节(iframe 嵌入报表)。
+- insert:
+    - id: fee-meter
+      name: dsh-fee-meter
