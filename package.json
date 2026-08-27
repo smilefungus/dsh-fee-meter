@@ -1,6 +1,6 @@
 {
   "name": "dsh-fee-meter",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "DeepSeek Harness 费用看板插件:右下角悬浮按钮 + 500×600 浮窗 iframe 嵌入费用报表页。Cost dashboard plugin for DeepSeek Harness: bottom-right floating button opens a 500×600 panel with an iframe-embedded report.",
   "type": "module",
   "main": "lib/index.js",
