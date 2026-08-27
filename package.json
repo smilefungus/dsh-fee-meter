@@ -1,7 +1,7 @@
 {
   "name": "dsh-fee-meter",
-  "version": "0.1.1",
-  "description": "DeepSeek Harness 费用看板插件:设置页内嵌 TokenPulse 报表页面。Cost dashboard plugin for DeepSeek Harness: embeds the TokenPulse report page in the settings panel.",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness 费用看板插件:右下角悬浮按钮 + 500×600 浮窗 iframe 嵌入费用报表页。Cost dashboard plugin for DeepSeek Harness: bottom-right floating button opens a 500×600 panel with an iframe-embedded report.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -23,8 +23,8 @@
   },
   "dshhub": {
     "schemaVersion": 1,
-    "displayName": "dsh-fee-meter",
-    "summary": "DeepSeek Harness 费用看板:设置页内嵌 TokenPulse 报表页面。",
+    "displayName": "费用看板 / fee-meter",
+    "summary": "DeepSeek Harness 费用看板:右下角悬浮按钮 + 浮窗嵌入费用报表。",
     "categories": [
       "费用",
       "Web UI"
